@@ -12254,3 +12254,22 @@ pre .code {
   margin-right: 10px;
   object-fit: contain;
 }
+
+.portfolio-card {
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.portfolio-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
