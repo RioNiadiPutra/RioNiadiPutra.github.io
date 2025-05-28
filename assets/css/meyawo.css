@@ -11187,7 +11187,7 @@ p {
 }
 
 /*/ portfolio wrapper */
-.portfolio-card {
+/*/.portfolio-card {
   display: block;
   position: relative;
   overflow: hidden;
@@ -11251,6 +11251,8 @@ p {
     margin-bottom: 30px;
   }
 }
+
+*/
 
 /* Pricing card */
 .pricing-wrapper {
@@ -12265,12 +12267,12 @@ pre .code {
   transform: translateY(-5px);
 }
 
-.portfolio-card h5 {
+.portfolio-card .card-title {
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.portfolio-card p {
+.portfolio-card .card-text {
   font-size: 0.9rem;
   color: #555;
 }
